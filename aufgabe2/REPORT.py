@@ -13,14 +13,14 @@ The interpolated slices were computed using the formula: interpolated_value = (1
 ###
 Interpolation Visualization
 ###
-We modified the script to visualize the two selected slices to be interpolated and the interpolated slices.
+I have modified the script to visualize the two selected slices to be interpolated and the interpolated slices.
 Each slice was displayed in individual figures that opened in full-screen size for easy comparison.
 The matplotlib library was used to create the figures and show the slices.
 
 ###
 Interpolation with Non-Consecutive Slices
 ###
-We extended the script to interpolate between non-consecutive slices that were further apart.
+I have extended the script to interpolate between non-consecutive slices that were further apart.
 The interpolated pixel values may not provide accurate estimates for the intermediate intensity values of the volume.
 Linear interpolation assumes a linear relationship between slices, which may not hold
 for non-consecutive slices that are distant from each other.
